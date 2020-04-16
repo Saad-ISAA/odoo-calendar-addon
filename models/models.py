@@ -6,7 +6,7 @@ class SaleOrderInherit(models.Model):
     _inherit = 'sale.order'
 
     def action_confirm(self):
-        res = super(SaleOrderInherit, self).action_confirm()
+        result = super(SaleOrderInherit, self).action_confirm()
         vals= {
             'name': self.name,
             'start': self.commitment_date,
@@ -16,4 +16,4 @@ class SaleOrderInherit(models.Model):
         calendar_event = self.env['calendar.event']
         calendar_event.create(vals)
         self.env.cr.commit()
-        return res
+        return result
