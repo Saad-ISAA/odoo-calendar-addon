@@ -1,0 +1,57 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+
+    <!-- <record model="ir.ui.view" id="tree_view_google_integration">
+      <field name="name">google_integration list</field>
+      <field name="model">google_integration.calendar_sales</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+          <button type="object" name="create_event" string="Event"/>
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="form_view_google_integration">
+      <field name="name">google_integration Form</field>
+      <field name="model">google_integration.calendar_sales</field>
+      <field name="arch" type="xml">
+        <form string="WooCommerce Configuration Form">
+          <sheet>
+            <group>
+              <field name="name"/>
+              <field name="value"/>
+              <field name="value2"/>
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record> -->
+
+    <!-- actions opening views on models -->
+<!-- 
+    <record model="ir.actions.act_window" id="action_google_integration">
+      <field name="name">google_integration window</field>
+      <field name="res_model">google_integration.calendar_sales</field>
+      <field name="view_mode">tree,form</field>
+    </record> -->
+
+
+    <!-- Top menu item -->
+
+    <!-- <menuitem name="google_integration" id="google_integration.menu_root" sequence="-3"/> -->
+
+    <!-- menu categories -->
+
+    <!-- <menuitem name="Menu 1" id="google_integration.menu_1" parent="google_integration.menu_root" action="action_google_integration"/> -->
+
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="google_calendar.menu_1_list" parent="google_calendar.menu_1" action="google_calendar.action_window"/>
+    <menuitem name="Server to list" id="google_calendar" parent="google_calendar.menu_2" action="google_calendar.action_server"/>
+-->
+  </data>
+</odoo>
